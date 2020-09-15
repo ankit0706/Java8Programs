@@ -1,4 +1,4 @@
-package com.sample.java8;
+package com.sample.java8.streams;
 /**
  * Plain old java class or Bean class for fund
  * @author AANU
