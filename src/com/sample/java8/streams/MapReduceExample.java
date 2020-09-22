@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.stream.Stream;
 
 /**
- * Map and Reduce functionality example using 
- * Java 8's Streams and Lambda expression.
+ * Map Reduce functionality implemented using 
+ * Java 8's Streams API with Lambda expressions.
  * @author AANU
  *
  */
@@ -21,7 +21,7 @@ public class MapReduceExample {
 	private static void computeAndPrint() {
 		//conversion of List into arrayList
 		ArrayList<Fund> fundList = new ArrayList<>();
-		fundList.addAll(Util.getFundList());
+		fundList.addAll(Util.getFundsList());
 		//1. create stream
 		Stream<Fund> fundStream = fundList.stream();
 		//2. map
