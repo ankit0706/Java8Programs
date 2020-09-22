@@ -23,6 +23,7 @@ public class Product implements Tradable{
 		product2.setName("Jazz");
 		System.out.println("Sell result = " + product2.sell());
 		String boughtProduct2 = product2.buy();
+		//calling the interface's static method
 		Tradable.printResult(boughtProduct2);
 		//calling interface's default method
 		product2.printTime();
