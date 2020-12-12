@@ -1,5 +1,10 @@
 package com.sample.java8.interfaces;
-
+/**
+ * Implementation class for the interface
+ *
+ * @author AANU
+ *
+ */
 public class Product implements Tradable{
 	
 	double price;
